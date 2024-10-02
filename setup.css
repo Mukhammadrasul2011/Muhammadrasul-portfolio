@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(19, 13, 13);
+}
+header{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding: 30px 80px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.logo a{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+span{
+    color: grey;
+    font-size: 25px;
+}
+ul{
+    gap: 50px;
+    font-size: 20px;
+}
+.ul1{
+    display: flex;
+    list-style: none;
+}
+ul li a:hover{
+    transition: 0.4s;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+ul li a{
+    color: grey;
+    transition: 0.4s;
+}
+.boshi{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.boshi h1{
+    font-size: 45px;
+}
+.boshi h2{
+    font-size: 30px;
+    color: yellow;
+}
+.ul2{
+    margin-left: 330px;
+    margin-top: 20px;
+    color: yellow;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.yozuv h2{
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 300px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+hr{
+    margin-top: 100px;
+}
+footer{
+    font-family: sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+@media (max-width: 400px) {
+    header {
+      padding: 20px 50px;
+    }
+    .logo {
+      z-index: 9;
+    }
+    .logo a {
+      font-size: 20px;
+    }
+    .ul1 {
+      background-color: rgb(19, 13, 13);
+      position: absolute;
+      left: 0;
+      top: -100%;
+      height: 50vh;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      transition: all 0.6s;
+    }
+    .ul2{
+        font-size: 10px;
+        margin-left: 150px;
+    }
+    .ul2 li{
+        color: yellow;
+    }
+    .menu {
+      top: 60px;
+    }
+    .bars{
+      color: white;
+    }
+    .res_icons {
+      display: inline-block;
+    }
+    .res_icons .media_icon {
+      display: none;
+    }
+    .boshi h1{
+        font-size: 20px;
+    }
+    .boshi h2{
+        font-size: 15px;
+    }
+    .yozuv h2{
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .yozuv ul{
+        color: #FFFFFF;
+    }
+    footer{
+        font-size: 10px;
+    }
+    }
+
+
+
+
+

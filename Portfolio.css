@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(19, 13, 13);
+}
+header{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding: 30px 80px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.logo a{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+span{
+    color: grey;
+    font-size: 25px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+ul li a{
+    transition: 0.4s;
+    color: grey;
+}
+ul li a:hover{
+    transition: 0.4s;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.Boshi{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.Boshi h1{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.Boshi h3{
+    color: yellow;
+}
+.portfolio1 img{
+    height: 300px;
+    margin-top: 50px;
+}
+.portfolio1{
+    display: flex;
+    padding: 60px;
+}
+.yozuv h1{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.btnlar button{
+    margin-top: 30px;
+    border: none;
+    padding: 20px 30px;
+}
+.btnlar a{
+    color: black;
+    font-size: 20px;
+}
+.btnlar{
+    margin-left: 50px;
+}
+.btn2{
+    width: 170px;
+}
+.btn1{
+    margin-left: 5px;
+    width: 170px;
+    background-color: yellow;
+}
+.portfolio2{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+.btnlar1 button{
+    margin-top: 30px;
+    border: none;
+    width: 170px;
+    padding: 20px 30px;
+}
+.btnlar1 button a{
+    color: black;
+    font-size: 20px;
+}
+.yozuv1 h1{
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.portfolio2 img{
+    margin-left: 200px;
+}
+hr{
+    margin-top: 100px;
+}
+footer{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+}
+@media (max-width: 400px) {
+    header {
+      padding: 20px 50px;
+    }
+    .logo {
+      z-index: 9;
+    }
+    .logo a {
+      font-size: 20px;
+    }
+    ul {
+      background-color: rgb(19, 13, 13);
+      position: absolute;
+      left: 0;
+      top: -100%;
+      height: 50vh;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      transition: all 0.6s;
+    }
+    .menu {
+      top: 60px;
+    }
+    .bars{
+      color: white;
+    }
+    .res_icons {
+      display: inline-block;
+    }
+    .res_icons .media_icon {
+      display: none;
+    }
+    .Boshi h1{
+        font-size: 20px;
+    }
+    .Boshi h3{
+        font-size: 17px;
+    }
+    .portfolio1{
+       padding: 0;
+       margin-left: 20px;
+    }
+    .portfolio1 img{
+        width: 360px;
+        height: 180px;
+    }
+    .yozuv{
+        position: absolute;
+        margin-top: 180px;
+        margin-left: 0;
+    }
+    .yozuv h1{
+        font-size: 25px;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    .btnlar button i{
+        font-size: 10px;
+    }
+    .btnlar{
+        margin-left: 20px;
+    }
+    .btnlar button{
+        width: 80px;
+        height: 30px;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .btnlar button a{
+        font-size: 10px;
+    }
+    .portfolio2{
+        padding: 0;
+        margin-top: 60px;
+    }
+    .portfolio2 img{
+        width: 360px;
+        height: 180px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .yozuv1{
+        margin-left: 40px;
+        position: absolute;
+        margin-top: 320px;
+    }
+    .yozuv1 h1{
+        font-size: 20px;
+    }
+    .btnlar1 button i{
+        font-size: 10px;
+    }
+    .btnlar1{
+        display: flex;
+    }
+    .yozuv1 button{
+        width: 80px;
+        height: 30px;
+        padding: 0;
+    }
+    .yozuv1 button a{
+        font-size: 10px;
+    }
+    hr{
+        margin-top: 120px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    }
